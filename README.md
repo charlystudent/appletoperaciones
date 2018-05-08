@@ -1,5 +1,6 @@
 # appletoperaciones
 
+Revisar apartado "WIKI"para mayor informacion del proyecto.
 ___________________________
 
 InformaciÛn general
