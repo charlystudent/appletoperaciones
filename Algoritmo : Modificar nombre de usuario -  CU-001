@@ -1,0 +1,44 @@
+Leer opcion 
+If  (opcion==1)
+Leer nombreusuario
+Leer operación
+If 
+operacion=”suma”
+   calct = Numeroaleatorio1 + Numeroaleatorio2
+   Leer val5 
+else 
+   calct = Numeroaleatorio1 - Numeroaleatorio2
+   Leer val5 
+end if
+   if(val5== calct)
+      puntaje[j]=9
+   else
+   //Se inician comparciones
+      valaunidad = val5 % 10;
+      vala7 = val5 / 10;
+      valacentena = vala7 / 10;
+      valadecena = vala7 % 10;
+      valbunidad = calct % 10;
+      valb7 = calct / 10;
+      valbcentena = calct / 10;
+      valbdecena = calct % 10;
+      if(valaunidad == valbunidad)
+         puntaje1=3
+      else
+         puntaje1=0
+      end if
+
+      if(valadecena == valbdecena)
+         puntaje2=3
+      else
+         puntaje2=0
+      end if
+      if(valacentena == valbcentena)
+         puntaje3=3
+      else
+         puntaje3=0
+      end if
+     puntaje4=puntaje1+ puntaje2+ puntaje3
+    Lista.setnombre = nuevonombre
+    Lista.setpuntaje= puntaje4
+end if
