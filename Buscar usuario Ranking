@@ -1,0 +1,14 @@
+Entradas
+Entero:  opcion
+Cadena: nombreusuario 
+Pre: Cantidad de Usuarios > 0 y Nombre Usuarios <> “”
+Inicio
+Leer opcion 
+If  (opcion==4)
+   Leer nombreusuario
+   Listado.getNombre= nombreusuario 
+Imprimir listado (nombreusuario,puntaje )
+End if
+Fin
+Salidas: Lista
+Pos: Cantidad de Usuarios > 0 y Nombre Usuarios <> “”
