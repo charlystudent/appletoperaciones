@@ -1,3 +1,8 @@
+Entradas
+Entero:  val5, opcion, calct, Numeroaleatorio1, Numeroaleatorio1, puntaje1, puntaje2, puntaje3, puntaje4
+Cadena: nombreusuario , operacion
+Pre: Cantidad de Usuarios > 0 y Nombre Usuarios <> “”
+Inicio
 Leer opcion 
 If  (opcion==1)
 Leer nombreusuario
@@ -42,3 +47,7 @@ end if
     Lista.setnombre = nuevonombre
     Lista.setpuntaje= puntaje4
 end if
+Fin
+Salidas: Lista
+Pos: Cantidad de Usuarios > 0 y Nombre Usuarios <> “”
+
